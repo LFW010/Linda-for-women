@@ -1,0 +1,36 @@
+* {
+  background-color: #e7dfd4;
+}
+a {
+  display: block;
+}
+body {
+  background-color: #e7dfd4;
+
+  margin: 0;
+  padding: 0;
+}
+.items {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-3%);
+}
+.items .item {
+  margin-top: 40px;
+  padding: 0;
+}
+.img {
+  width: fit-content;
+}
+.img-container img {
+  border-radius: 11px;
+  width: 70px;
+}
+.img-container .whats {
+  border-radius: 19px !important;
+}
+.img-edit img {
+  width: 330px;
+}
